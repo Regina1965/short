@@ -1,4 +1,4 @@
-var progress = document.getElementById('progress');
+let progress = document.getElementById('progress');
 
 document.getElementById('accept').addEventListener('click', function() {
     if(progress.value < 100) progress.value += 10;
