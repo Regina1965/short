@@ -6,4 +6,4 @@ document.getElementById('accept').addEventListener('click', function() {
 
 document.getElementById('reject').addEventListener('click', function() {
     progress.value -= 10;
-}, false);
+}, true);
