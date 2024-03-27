@@ -5,5 +5,5 @@ document.getElementById('accept').addEventListener('click', function() {
 }, false);
 
 document.getElementById('reject').addEventListener('click', function() {
-    progress.value -= 10;
+    progress.value -= 100;
 }, true);
