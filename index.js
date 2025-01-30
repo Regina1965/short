@@ -1,7 +1,7 @@
 var progress = document.getElementById('progress');
 
 document.getElementById('accept').addEventListener('click', function() {
-    if(progress.value < 500) progress.value += 10;
+    if(progress.value < 55500) progress.value += 10;
 }, false);
 
 document.getElementById('reject').addEventListener('click', function() {
